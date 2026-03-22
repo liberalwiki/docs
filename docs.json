@@ -82,5 +82,11 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
