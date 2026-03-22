@@ -86,8 +86,8 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "CCS Blogs",
+          "href": "https://ccs.in/all-publications",
           "icon": "newspaper"
         }
       ]
