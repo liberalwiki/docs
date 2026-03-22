@@ -36,13 +36,9 @@
     "tabs": [
       {
         "tab": "Home",
-        "groups": [
-          {
-            "group": "Home",
-            "pages": [
-              "index"
-            ]
-          }
+        "pages": [
+          "index",
+          "faq"
         ]
       }
     ]
@@ -88,5 +84,8 @@
   },
   "interaction": {
     "drilldown": true
+  },
+  "appearance": {
+    "default": "light"
   }
 }
