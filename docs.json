@@ -19,79 +19,33 @@
 },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Centre for Civil Society",
+          "icon": "book-open-cover",
+          "href": "https://ccs.in/"
+        },
+        {
+          "anchor": "CCS Blogs",
+          "icon": "newspaper",
+          "href": "https://ccs.in/all-publications"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Home",
         "groups": [
           {
-            "group": "Welcome To The",
+            "group": "Home",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "index"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Centre for Civil Society",
-          "href": "https://ccs.in/",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "CCS Blogs",
-          "href": "https://ccs.in/all-publications",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
