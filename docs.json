@@ -21,7 +21,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
             "group": "Getting started",
@@ -81,8 +81,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Centre for Civil Society",
+          "href": "https://ccs.in/",
           "icon": "book-open-cover"
         },
         {
