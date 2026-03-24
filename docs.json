@@ -1,22 +1,22 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
-  "name": "Liberal Wiki",
+  "theme": "mint",
+  "name": "Libertarian Wiki",
   "colors": {
-"primary": "#202122",
-"light": "#F8F9FA",
-"dark": "#000000"
+    "primary": "#202122",
+    "light": "#F8F9FA",
+    "dark": "#000000"
   },
-"fonts": {
-  "heading": {
-    "family": "Inter",
-    "weight": 700
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 700
+    },
+    "body": {
+      "family": "JetBrains Mono",
+      "weight": 400
+    }
   },
-  "body": {
-    "family": "JetBrains Mono",
-    "weight": 400
-  }
-},
   "favicon": "/favicon.svg",
   "navigation": {
     "global": {
@@ -36,10 +36,7 @@
     "tabs": [
       {
         "tab": "Home",
-        "pages": [
-          "index",
-          "faq"
-        ]
+        "pages": ["index", "faq"]
       }
     ]
   },
@@ -52,15 +49,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
@@ -77,5 +74,4 @@
   "appearance": {
     "default": "light"
   }
-  
 }
