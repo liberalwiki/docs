@@ -1,80 +1,91 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "How to Use This Wiki"
+description: "A guide to getting the most out of the Liberal Wiki"
 ---
 
-## Get started in three steps
+## What is this wiki?
 
-Get your documentation site running locally and make your first customization.
+The Liberal Wiki is a growing resource of libertarian and free market ideas, applied to real Indian policy questions. It is not a textbook, a manifesto, or a party platform. Think of it as a **living reference** — a place to find clear, honest answers to the kinds of questions that come up whenever someone defends markets, limited government, or individual freedom in an Indian context.
 
-### Step 1: Set up your local environment
+If someone asks you *"but who will build the roads?"* or *"won't free markets just exploit the poor?"*, this is the place to find a considered answer.
+
+---
+
+## Step 1: Find what you're looking for
+
+The wiki is organised into **topic areas**, each covering a domain of Indian public policy.
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+  <Accordion icon="wheat" title="Agriculture">
+    Covers questions about farm laws, minimum support prices, subsidies, mandi regulations, and what free markets would actually mean for Indian farmers. Start with the [Agriculture FAQ](/faq).
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+  <Accordion icon="graduation-cap" title="School Education">
+    Covers questions about government vs. private schools, the Right to Education Act, vouchers, teacher accountability, and why throwing more money at public schools hasn't worked. Start with the [Education FAQ](/faq).
+  </Accordion>
+  <Accordion icon="book" title="Glossary">
+    New to free market economics? The [Glossary](/glossary) explains core concepts — from price signals to rent-seeking — in plain language without assuming prior knowledge.
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+---
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+## Step 2: Understand how FAQ pages work
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+Each topic area has a main FAQ page that lists the most common objections and questions. These are written to be **honest about the strongest version of the opposing argument** before responding.
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+<Steps>
+  <Step title="Read the question as a skeptic would ask it">
+    Each FAQ entry starts with the question as a critic or skeptic would genuinely phrase it — not a straw man.
+  </Step>
+  <Step title="Follow the argument, not just the conclusion">
+    The answers are meant to be reasoned through, not just asserted. If an answer doesn't convince you, the reasoning should at least be clear enough to disagree with specifically.
+  </Step>
+  <Step title="Check the evidence">
+    Where empirical claims are made, we try to link to research or data. If you spot a claim that isn't sourced, that's a contribution opportunity.
+  </Step>
+</Steps>
 
-### Step 3: Go live
+---
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+## Step 3: Go deeper
 
-## Next steps
-
-Now that you have your docs running, explore these key features:
+The FAQ pages are starting points, not endpoints.
 
 <CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
+  <Card title="Glossary" icon="book-open" href="/glossary">
+    Build your vocabulary of free market concepts before diving into policy debates.
+  </Card>
+  <Card title="Our Story" icon="users" href="/index">
+    Understand who built this and why — it helps to know where we're coming from.
+  </Card>
+  <Card title="Centre for Civil Society" icon="building-columns" href="https://ccs.in">
+    Our parent organisation, with decades of research on Indian economic freedom.
+  </Card>
+  <Card title="Contribute" icon="pen-to-square" href="/CONTRIBUTING">
+    Found a gap? Spotted an error? The wiki grows through contributions.
+  </Card>
 </CardGroup>
 
+---
+
+## Step 4: Contribute
+
+This wiki is only as good as the people who build it. You don't need to be an economist or a policy expert to contribute — you need to care about getting things right.
+
+<AccordionGroup>
+  <Accordion icon="lightbulb" title="Suggest a question">
+    If you've encountered an objection to free markets that isn't covered here, open an issue on GitHub or reach out. The best FAQ entries come from real conversations.
+  </Accordion>
+  <Accordion icon="pen" title="Write an answer">
+    If you know a topic well — agriculture, education, healthcare, labour law — you can draft a response. Read the [Contributing guide](/CONTRIBUTING) for style and sourcing standards.
+  </Accordion>
+  <Accordion icon="flag" title="Flag something wrong">
+    If you think an answer is incorrect, incomplete, or unfair to the opposing view, flag it. We would rather be corrected than be confidently wrong.
+  </Accordion>
+</AccordionGroup>
+
+---
+
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  This wiki takes ideas seriously. It does not take any political party, personality, or ideology as given. If an argument is weak, we want to know. If evidence points against a position we hold, we want to update.
 </Note>

@@ -1,0 +1,9 @@
+/* Light mode: pure black body text */
+.prose {
+  color: #000000;
+}
+
+/* Dark mode: pure white body text */
+.dark .prose {
+  color: #ffffff;
+}

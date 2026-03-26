@@ -1,68 +1,110 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Liberal Wiki",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#171717",
+    "light": "#737373",
+    "dark": "#0a0a0a"
   },
   "favicon": "/favicon.svg",
+  "css": "/custom.css",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "tab": "Home",
+            "icon": "home",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["index", "quickstart", "glossary"]
+              },
+              {
+                "group": "Content",
+                "pages": ["content/videos"]
+              }
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+            "tab": "Agriculture",
+            "icon": "tractor",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["agriculture/faq/index"]
+              }
             ]
           },
           {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+            "tab": "Education",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["education/faq/index"]
+              },
+              {
+                "group": "Syllabus",
+                "pages": [
+                  "education/syllabus/books",
+                  "education/syllabus/papers",
+                  "education/syllabus/reports",
+                  "education/syllabus/articles",
+                  "education/syllabus/videos"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
+        "language": "hi",
+        "tabs": [
           {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+            "tab": "मुख पृष्ठ",
+            "icon": "home",
+            "groups": [
+              {
+                "group": "शुरुआत करना",
+                "pages": ["index", "quickstart", "glossary"]
+              },
+              {
+                "group": "सामग्री",
+                "pages": ["content/videos"]
+              }
             ]
           },
           {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "tab": "कृषि",
+            "icon": "tractor",
+            "groups": [
+              {
+                "group": "शुरुआत करना",
+                "pages": ["agriculture/faq/index"]
+              }
+            ]
+          },
+          {
+            "tab": "शिक्षा",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "शुरुआत करना",
+                "pages": ["education/faq/index"]
+              },
+              {
+                "group": "पाठ्यक्रम",
+                "pages": [
+                  "education/syllabus/books",
+                  "education/syllabus/papers",
+                  "education/syllabus/reports",
+                  "education/syllabus/articles",
+                  "education/syllabus/videos"
+                ]
+              }
             ]
           }
         ]
@@ -71,46 +113,37 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Centre for Civil Society",
+          "href": "https://ccs.in",
+          "icon": "external-link"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Email Us",
+        "href": "mailto:ccs@ccs.in"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Centre for Civil Society",
+      "href": "https://ccs.in"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
