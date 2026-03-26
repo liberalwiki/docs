@@ -16,7 +16,6 @@
         "tabs": [
           {
             "tab": "Home",
-            "icon": "home",
             "groups": [
               {
                 "group": "Getting started",
@@ -30,7 +29,6 @@
           },
           {
             "tab": "Agriculture",
-            "icon": "tractor",
             "groups": [
               {
                 "group": "Getting started",
@@ -40,7 +38,6 @@
           },
           {
             "tab": "Education",
-            "icon": "book",
             "groups": [
               {
                 "group": "Getting started",
@@ -65,7 +62,6 @@
         "tabs": [
           {
             "tab": "मुख पृष्ठ",
-            "icon": "home",
             "groups": [
               {
                 "group": "शुरुआत करना",
@@ -79,7 +75,7 @@
           },
           {
             "tab": "कृषि",
-            "icon": "tractor",
+            
             "groups": [
               {
                 "group": "शुरुआत करना",
@@ -89,7 +85,6 @@
           },
           {
             "tab": "शिक्षा",
-            "icon": "book",
             "groups": [
               {
                 "group": "शुरुआत करना",
