@@ -32,7 +32,7 @@
             "groups": [
               {
                 "group": "Getting started",
-                "pages": ["agriculture/faq/index"]
+                "pages": ["agriculture/faq/000-index"]
               }
             ]
           },
@@ -41,7 +41,7 @@
             "groups": [
               {
                 "group": "Getting started",
-                "pages": ["education/faq/index"]
+                "pages": ["education/faq/000-index"]
               },
               {
                 "group": "Syllabus",
