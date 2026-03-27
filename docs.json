@@ -10,6 +10,15 @@
   "favicon": "/favicon.svg",
   "css": "/custom.css",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Centre for Civil Society",
+          "icon": "external-link",
+          "href": "https://ccs.in"
+        }
+      ]
+    },
     "languages": [
       {
         "language": "en",
@@ -19,11 +28,17 @@
             "groups": [
               {
                 "group": "Getting started",
-                "pages": ["index", "quickstart", "glossary"]
+                "pages": [
+                  "index",
+                  "quickstart",
+                  "glossary"
+                ]
               },
               {
                 "group": "Content",
-                "pages": ["content/videos"]
+                "pages": [
+                  "content/videos"
+                ]
               }
             ]
           },
@@ -32,7 +47,19 @@
             "groups": [
               {
                 "group": "Getting started",
-                "pages": ["agriculture/faq/000-index"]
+                "pages": [
+                  "agriculture/faq/000-index"
+                ]
+              },
+              {
+                "group": "Syllabus",
+                "pages": [
+                  "books",
+                  "papers",
+                  "reports",
+                  "articles-and-blogs",
+                  "podcasts-and-videos"
+                ]
               }
             ]
           },
@@ -41,7 +68,9 @@
             "groups": [
               {
                 "group": "Getting started",
-                "pages": ["education/faq/000-index"]
+                "pages": [
+                  "education/faq/000-index"
+                ]
               },
               {
                 "group": "Syllabus",
@@ -65,21 +94,28 @@
             "groups": [
               {
                 "group": "शुरुआत करना",
-                "pages": ["index", "quickstart", "glossary"]
+                "pages": [
+                  "index",
+                  "quickstart",
+                  "glossary"
+                ]
               },
               {
                 "group": "सामग्री",
-                "pages": ["content/videos"]
+                "pages": [
+                  "content/videos"
+                ]
               }
             ]
           },
           {
             "tab": "कृषि",
-            
             "groups": [
               {
                 "group": "शुरुआत करना",
-                "pages": ["agriculture/faq/index"]
+                "pages": [
+                  "agriculture/faq/index"
+                ]
               }
             ]
           },
@@ -88,7 +124,9 @@
             "groups": [
               {
                 "group": "शुरुआत करना",
-                "pages": ["education/faq/index"]
+                "pages": [
+                  "education/faq/index"
+                ]
               },
               {
                 "group": "पाठ्यक्रम",
@@ -104,16 +142,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Centre for Civil Society",
-          "href": "https://ccs.in",
-          "icon": "external-link"
-        }
-      ]
-    }
+    ]
   },
   "navbar": {
     "links": [
