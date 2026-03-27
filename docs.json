@@ -54,11 +54,11 @@
               {
                 "group": "Syllabus",
                 "pages": [
-                  "books",
-                  "papers",
-                  "reports",
-                  "articles-and-blogs",
-                  "podcasts-and-videos"
+                  "agriculture/syllabus/books",
+                  "agriculture/syllabus/papers",
+                  "agriculture/syllabus/reports",
+                  "agriculture/syllabus/articles",
+                  "agriculture/syllabus/videos"
                 ]
               }
             ]
